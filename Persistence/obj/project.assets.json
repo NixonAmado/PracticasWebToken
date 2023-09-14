@@ -5221,11 +5221,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\APT01-62\\Documents\\c#\\PracticasWebToken\\Persistence\\Persistence.csproj",
+      "projectUniqueName": "C:\\Users\\APT01-62\\Documents\\c#\\PracticasWebToken\\Persistence\\Persistence.csproj",
       "projectName": "Persistence",
-      "projectPath": "c:\\Users\\APT01-62\\Documents\\c#\\PracticasWebToken\\Persistence\\Persistence.csproj",
+      "projectPath": "C:\\Users\\APT01-62\\Documents\\c#\\PracticasWebToken\\Persistence\\Persistence.csproj",
       "packagesPath": "C:\\Users\\APT01-62\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\APT01-62\\Documents\\c#\\PracticasWebToken\\Persistence\\obj\\",
+      "outputPath": "C:\\Users\\APT01-62\\Documents\\c#\\PracticasWebToken\\Persistence\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\APT01-62\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -5240,8 +5240,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "c:\\Users\\APT01-62\\Documents\\c#\\PracticasWebToken\\Domain\\Domain.csproj": {
-              "projectPath": "c:\\Users\\APT01-62\\Documents\\c#\\PracticasWebToken\\Domain\\Domain.csproj"
+            "C:\\Users\\APT01-62\\Documents\\c#\\PracticasWebToken\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\APT01-62\\Documents\\c#\\PracticasWebToken\\Domain\\Domain.csproj"
             }
           }
         }

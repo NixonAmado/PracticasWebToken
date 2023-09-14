@@ -1,8 +1,12 @@
+using System.Reflection;
+using Domain.Entities;
+using Microsoft.EntityFrameworkCore;
+
 namespace Persistencia.Data;
 
 public class PracticasTokenContext : DbContext
 {
-    PracticasTokenContext(DbContextOptions options): base(options)
+    public PracticasTokenContext(DbContextOptions<PracticasTokenContext> options): base(options)
     {
     }
 
@@ -11,7 +15,7 @@ public class PracticasTokenContext : DbContext
         public DbSet<User> Users {get;set;}
         public DbSet<UserRol> UsersRols {get;set;}
 
-    public override void OnModelCreating(ModelBuilder modelBuilder)
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
         modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
